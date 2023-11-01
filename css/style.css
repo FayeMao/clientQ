@@ -1,0 +1,85 @@
+:root {
+  --primary-color: #4AA8F8;
+  --dark-color: #1A3953;
+  --accent-color: #F65751;
+  --light-color: #DFF0FF;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px #fff solid; */
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 10px;
+}
+
+/* Header */
+
+header {
+  background: var(--dark-color);
+  padding: 10px 200px;
+  border-bottom: var(--accent-color) 5px solid;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li a {
+  font-family: 'Bakbak One', 'Inter', sans-serif;
+  color: #fff;
+  padding: 15px; 
+}
+
+header .book-button a {
+  display: flex;
+  font-family: 'Bakbak One', 'Inter', sans-serif;
+  color: #fff;
+  font-size: 28px;
+  background: var(--primary-color);
+  padding: 5px 25px;
+  border-radius: 15px;
+  border: #fff solid 3px;
+}
+
+/* Hover and Animations */
+
+header nav .topheader a:hover {
+  color: var(--primary-color);
+  transition: color 0.5s ease-in-out;
+}
+
+header .book-button a:hover {
+  background: var(--accent-color); 
+  transition: color 0.5s ease-in-out;
+}
