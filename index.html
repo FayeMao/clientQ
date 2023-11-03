@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CliniQ | Home</title>
+  <title>ClinicQ | Home</title>
   <link rel="stylesheet" href="css/style.css">
   <link href='https://fonts.googleapis.com/css?family=Bakbak One' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+  <!-- Header -->
   <header>
     <div class="container">
       <div class="logo">
-        <a href="index.html"><img src="/img/cliniQ.png" alt="Logo"></a>
+        <a href="index.html"><img src="/img/clinicQ.png" alt="Logo"></a>
       </div>
       <nav>
         <ul class="topheader">
@@ -27,38 +29,67 @@
     </div>
   </header>
 
-  <section class="section-b">
-    <div class="container">
-      <h3 class="accent">How it works</h3>
-      <h2>Our Easy Booking Process</h2>
-      <div class="steps">
-        <div>
-          <img src="/img/step-1.png" alt="step 1">
-          <h3>Step 1</h3>
-          <p>Fill out your details. We only require your name and contact information to send you details on your appointment!</p>
+  <!-- Hero  -->
+  <div class="sections-flex">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-headline">Schedule your next <span id="walk-in">walk-in clinic</span> appointment today!</h1>
+          <img src="/img/heroMap.png" alt="Hero Image" class="hero-image">
         </div>
-        <div>
-          <img src="/img/step-2.png" alt="step 3">
-          <h3>Step 2</h3>
-          <p>Find the perfect healthcare practitioner at your desired timeslot.</p>
-        </div>
-        <div>
-          <img src="/img/step-3.png" alt="step 3">
-          <h3>Step 3</h3>
-          <p>Meet in-person with your desired healthcare practitioner. Skip the line without waiting hours at the walk-in clinic!</p>
-        </div>
+        <!-- Search Bar -->
+          <form action="#" class="search-bar">
+            <div class="form-search">
+              <img src="/img/map-pin.png" alt="map pin">
+              <input type="search" placeholder="Enter city, postal code or address">
+            <button class="submit-btn btn">Book your clinic</button>
+            </div>
+            <a href="#" class="add-clinic">I would like to add my clinic</a>
+          </form>
       </div>
-      <form action="#">
-        <div class="form-search">
-          <img src="/img/map-pin.png" alt="map pin">
-          <input type="search" placeholder="Enter city, postal code or address">
-        <button class="submit-btn btn">Book your clinic</button>
-        </div>
-        <a href="#" class="add-clinic">I would like to add my clinic</a>
-      </form>
-    </div>
-  </section>
+    </section>
 
+    <!-- Section B -->
+    <section class="section-b">
+      <div class="container">
+        <h3 class="accent">How it works</h3>
+        <h2>Our Easy Booking Process</h2>
+        <div class="steps">
+          <div>
+            <img src="/img/step-1.png" alt="step 1">
+            <h3>Step 1</h3>
+            <p>Fill out your details. We only require your name and contact information to send you details on your appointment!</p>
+          </div>
+          <div>
+            <img src="/img/step-2.png" alt="step 3">
+            <h3>Step 2</h3>
+            <p>Find the perfect healthcare practitioner at your desired timeslot.</p>
+          </div>
+          <div>
+            <img src="/img/step-3.png" alt="step 3">
+            <h3>Step 3</h3>
+            <p>Meet in-person with your desired healthcare practitioner. Skip the line without waiting hours at the walk-in clinic!</p>
+          </div>
+        </div>
+        <form action="#">
+          <div class="form-search">
+            <img src="/img/map-pin.png" alt="map pin">
+            <input type="search" placeholder="Enter city, postal code or address">
+          <button class="submit-btn btn">Book your clinic</button>
+          </div>
+          <a href="#" class="add-clinic">I would like to add my clinic</a>
+        </form>
+      </div>
+    </section>
+
+    <!-- Section D - FAQ -->
+    <section class="section-d">
+      <div class="container">
+        <h3 class="accent">Got questions?</h3>
+        <h2>FAQs - Booking and Visits</h2>
+        
+      </div>
+    </section>
   
 </body>
 </html>
