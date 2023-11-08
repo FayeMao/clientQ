@@ -1,3 +1,7 @@
+<!-- ramses@prepr.org 
+https://dtp.agilearn.ca/clinicq
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,13 +12,22 @@
   <link href='https://fonts.googleapis.com/css?family=Bakbak One' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QX5WWFC10S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QX5WWFC10S');
+  </script>
 </head>
 <body>
   <!-- Header -->
   <header>
     <div class="container">
       <div class="logo">
-        <a href="index.html"><img src="/img/clinicQ.png" alt="Logo"></a>
+        <a href="index.html"><img src="/img/logo.svg" alt="Logo"></a>
       </div>
       <nav>
         <ul class="topheader">
@@ -35,45 +48,12 @@
       <div class="container">
         <div class="hero-content">
           <h1 class="hero-headline">Schedule your next <span id="walk-in">walk-in clinic</span> appointment today!</h1>
-          <img src="/img/heroMap.png" alt="Hero Image" class="hero-image">
+          <img src="/img/Map.svg" alt="Hero Image" class="hero-image">
         </div>
         <!-- Search Bar -->
-          <form action="#" class="search-bar">
-            <div class="form-search">
-              <img src="/img/map-pin.png" alt="map pin">
-              <input type="search" placeholder="Enter city, postal code or address">
-            <button class="submit-btn btn">Book your clinic</button>
-            </div>
-            <a href="#" class="add-clinic">I would like to add my clinic</a>
-          </form>
-      </div>
-    </section>
-
-    <!-- Section B -->
-    <section class="section-b">
-      <div class="container">
-        <h3 class="accent">How it works</h3>
-        <h2>Our Easy Booking Process</h2>
-        <div class="steps">
-          <div>
-            <img src="/img/step-1.png" alt="step 1">
-            <h3>Step 1</h3>
-            <p>Fill out your details. We only require your name and contact information to send you details on your appointment!</p>
-          </div>
-          <div>
-            <img src="/img/step-2.png" alt="step 3">
-            <h3>Step 2</h3>
-            <p>Find the perfect healthcare practitioner at your desired timeslot.</p>
-          </div>
-          <div>
-            <img src="/img/step-3.png" alt="step 3">
-            <h3>Step 3</h3>
-            <p>Meet in-person with your desired healthcare practitioner. Skip the line without waiting hours at the walk-in clinic!</p>
-          </div>
-        </div>
-        <form action="#">
+        <form action="#" class="search-bar">
           <div class="form-search">
-            <img src="/img/map-pin.png" alt="map pin">
+            <img src="/img/map-pin.svg" alt="map pin">
             <input type="search" placeholder="Enter city, postal code or address">
           <button class="submit-btn btn">Book your clinic</button>
           </div>
@@ -82,14 +62,130 @@
       </div>
     </section>
 
-    <!-- Section D - FAQ -->
-    <section class="section-d">
+        <!-- Section A -->
+        <section class="section-a">
+          <div class="container">
+            <h2>Say goodbye to long waits — Secure your spot ahead of time!</h2>
+            <div class="advantages">
+              <div class="advantages-point">
+                <img src="/img/no-1.svg" alt="step 1">
+                <p><b>Time-Saving Convenience:</b> Secure a specific time slot that fits into your busy schedule, eliminating the uncertainty and long periods spent in waiting rooms.</p>
+              </div>
+              <div class="advantages-point">
+                <img src="/img/no-2.svg" alt="step 2">
+                <p><b>Enhanced Safety:</b> Reduce your exposure to others and the potential spread of infections by minimizing the time spent in public clinic areas.</p>
+              </div>
+              <div class="advantages-point">
+                <img src="/img/no-3.svg" alt="step 3">
+                <p><b>Streamlined Service:</b> Enjoy a more personalized visit with healthcare providers who are prepared for your appointment in advance, leading to more efficient and focused care.</p>
+              </div>
+              <div class="advantages-point">
+                <img src="/img/no-4.svg" alt="step 4">
+                <p><b>Lower Stress Levels:</b> Avoid the anxiety and discomfort associated with crowded waiting areas. Knowing your appointment is set can provide peace of mind.</p>
+              </div>
+              <div class="advantages-point">
+                <img src="/img/no-5.svg" alt="step 5">
+                <p><b>Better Planning:</b> With a guaranteed spot, you can plan your day more effectively without the need to account for unexpected delays due to overcrowding.</p>
+              </div>
+              <div class="advantages-point">
+                <img src="/img/no-6.svg" alt="step 6">
+                <p><b>Increased Accessibility:</b> Book appointments easily from any device, anytime and anywhere, avoiding the need to call during busy hours or wait in line to make an appointment in person.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+    <!-- Section B -->
+    <section class="section-b">
       <div class="container">
-        <h3 class="accent">Got questions?</h3>
-        <h2>FAQs - Booking and Visits</h2>
-        
+        <h3 class="accent">How it works</h3>
+        <h2>Our Easy Booking Process</h2>
+        <div class="steps">
+          <div>
+            <img src="/img/step-1.svg" alt="step 1">
+            <h3>Step 1</h3>
+            <p>Fill out your details. We only require your name and contact information to send you details on your appointment!</p>
+          </div>
+          <div>
+            <img src="/img/step-2.svg" alt="step 2">
+            <h3>Step 2</h3>
+            <p>Find the perfect healthcare practitioner at your desired timeslot.</p>
+          </div>
+          <div>
+            <img src="/img/step-3.svg" alt="step 3">
+            <h3>Step 3</h3>
+            <p>Meet in-person with your desired healthcare practitioner. Skip the line without waiting hours at the walk-in clinic!</p>
+          </div>
+        </div>
+        <form action="#" class="search-bar">
+          <div class="form-search">
+            <img src="/img/map-pin.svg" alt="map pin">
+            <input type="search" placeholder="Enter city, postal code or address">
+            <button class="submit-btn btn">Book your clinic</button>
+          </div>
+          <a href="#" class="add-clinic">I would like to add my clinic</a>
+        </form>
       </div>
     </section>
+
+    <!-- Section D - FAQ -->
+    <section class="section-d">
+      <div class="container-sm">
+        <h3 class="accent">Got questions?</h3>
+        <h2>FAQs - Booking and Visits</h2>
+        <div class="faq-group">
+          <div class="faq">
+            <button class="accordion">
+              What is ClinicQ?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt totam harum ipsum incidunt fugit illo dicta quisquam. Recusandae, incidunt autem! Laborum saepe, libero rerum distinctio enim voluptate ea recusandae.
+              </p>
+            </div>
+          </div>
   
-</body>
+          <div class="faq">
+            <button class="accordion">
+              How would ClinicQ benefit me?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt totam harum ipsum incidunt fugit illo dicta quisquam. Recusandae, incidunt autem! Laborum saepe, libero rerum distinctio enim voluptate ea recusandae.
+              </p>
+            </div>
+          </div>
+  
+          <div class="faq">
+            <button class="accordion">
+              How does it work?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt totam harum ipsum incidunt fugit illo dicta quisquam. Recusandae, incidunt autem! Laborum saepe, libero rerum distinctio enim voluptate ea recusandae.
+              </p>
+            </div>
+          </div>
+  
+          <div class="faq">
+            <button class="accordion">
+              How long would I have to wait?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="panel">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nesciunt totam harum ipsum incidunt fugit illo dicta quisquam. Recusandae, incidunt autem! Laborum saepe, libero rerum distinctio enim voluptate ea recusandae.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <script src="js/script.js"></script>
+    
+  </body>
 </html>
